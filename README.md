@@ -17,7 +17,7 @@ This image can be used to deploy cookbooks direct from your CI.
 1. Create a new chef user for deploying from CI (e.g.: use
 `chef-server-ctl user-create ...` if you're using chef on-premises).
 2. Set environment variables for `CHEF_SERVER`, `CHEF_USER` and `CHEF_KEY`
-to be your chef organisation URL, username and private key respectively.
+to be your chef organization URL, username and private key respectively.
 This should be done through your CI settings so they're hidden variables.
 3. Your script to upload to Chef will look something like:
 ~~~bash
